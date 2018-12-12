@@ -1,0 +1,110 @@
+body{
+  font-family: arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-size: 20px; */
+  font-size: .71vw;
+  /* 1em = 20px */
+  /* .5em = 10px */
+  /* margin-right:-10px; */
+  overflow: hidden;
+  margin: 0px;
+}
+
+.siren-red {
+  color: white;
+  background-color: blue;
+}
+
+.siren-blue {
+  color: blue;
+  background-color: red;
+}
+
+#main-1 {
+  background: white;
+  padding: 0 1em;
+  text-transform: uppercase;
+}
+
+#main-2 {
+  color: white;
+  padding: 0 1em;
+  text-transform: uppercase;
+}
+
+.movieB, .movieA{
+  float: left;
+  width: 4.54%;
+  height: 5.25%;
+}
+
+.movieB{
+  padding-top: 17px;
+}
+
+.injury{
+  /* font-size: 12px; */
+  font-weight: 900px;
+  font-weight: bold;
+}
+
+.death {
+  /*font-size: .65vw;*/
+  font-size: .68vw;
+  font-weight: 900px;
+  font-weight: bold;
+  line-height: 16px;
+}
+
+.crashid {
+  /* font-size: 19px; */
+  font-weight: 900px;
+  font-weight: bold;
+}
+
+.doc {
+  /* font-size: 6px; */
+}
+
+.occupants {
+/*font-size: .65vw;*/
+font-weight: 900px;
+font-weight: bold;
+font-size: .68vw;
+}
+
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
